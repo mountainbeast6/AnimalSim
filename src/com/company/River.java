@@ -45,7 +45,7 @@ public class River {
             }
             System.out.println(toString());
         try {
-            Thread.sleep(250);
+            Thread.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

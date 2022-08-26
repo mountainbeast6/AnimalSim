@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args){
 	    River river = new River( 40,40);
-	    generate(river,6,11);
+	    generate(river,2,4);
         for(int i = 0; i <4000; i++){
             river.run();
         }
